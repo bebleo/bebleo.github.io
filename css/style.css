@@ -1,0 +1,93 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    align-self: center;
+    background-color: aliceblue;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+div.container {
+    text-align: auto;
+    max-width: 1000px;
+    padding: 8px
+}
+h1 {
+    color: darkorange;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+.deck {
+    text-align: left;
+
+}
+.card {
+    background-color: white;
+    padding: 0.5em;
+    display: inline-block;
+    clear: none;
+    width: 30%;
+    margin-bottom: 1rem;
+    margin-right: 0.6rem;
+    min-width: 200px;
+    border: 1px solid darkgray;    
+    vertical-align: top;
+}
+.card:first {
+    clear: left;
+}
+.card:last-of-type {
+    clear: right;
+}
+.card > h3 {
+    margin-top: 0;
+}
+.card-list {
+    line-height: 1.5;
+    padding-left: 20px;
+}
+.license {
+    list-style-image: url(../images/bullets/law.png);
+}
+.project_site {
+    list-style-image: url(../images/bullets/link.png);
+}
+.codelink {
+    list-style-image: url(../images/bullets/code.png);
+}
+.footer {
+    color: gray;
+    max-width: 1000px;
+    font-size: smaller;
+    padding: 8px;
+    border-top: 1px solid darkgray;
+}
+.footer::after {
+    display: block;
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+    content: none;
+}
+.subtitle {
+    font-size: 80%;
+    color:grey;
+    text-transform: uppercase;
+}
+.taglist {
+    padding-left: 0;
+}
+.taglist > li {
+    display: inline-block;
+    border: 1px solid skyblue;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.1em;
+    margin-bottom: 0.25em;
+    font-size: small;
+    background-color: rgb(217, 240, 255);
+}
